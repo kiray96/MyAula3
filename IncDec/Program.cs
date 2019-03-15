@@ -10,7 +10,7 @@ namespace IncDec
             int b = 1;
             int c;
 
-            c = a++ + b++;
+            c = ++a + ++b;
 
             Console.WriteLine(c);
             Console.WriteLine(a);
